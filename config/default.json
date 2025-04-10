@@ -1,0 +1,25 @@
+{
+  "server": {
+    "name": "mcp-db-service",
+    "version": "1.0.0"
+  },
+  "databases": {
+    "postgresql": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "password": "",
+      "database": "postgres"
+    },
+    "mysql": {
+      "host": "localhost",
+      "port": 3306,
+      "user": "root",
+      "password": "",
+      "database": "mysql"
+    },
+    "sqlite": {
+      "file": ":memory:"
+    }
+  }
+}

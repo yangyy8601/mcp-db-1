@@ -1,0 +1,48 @@
+{
+  "name": "mcp-db-service",
+  "version": "1.0.0",
+  "description": "MCP Database Service for Cursor - 用于Cursor的MCP数据库服务",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "test": "node examples/quick-test.js",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "mcp-db-service": "dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "database",
+    "cursor",
+    "postgresql",
+    "mysql",
+    "sqlite",
+    "ai",
+    "agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/mcp-db-service"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "mysql2": "^3.14.0",
+    "pg": "^8.14.1",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/pg": "^8.14.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-db-service": {
+      "command": "node",
+      "args": [
+        "dist/index.js"
+      ]
+    }
+  }
+}
